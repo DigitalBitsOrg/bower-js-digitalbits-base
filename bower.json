@@ -1,10 +1,10 @@
 {
-  "name": "stellar-base",
-  "homepage": "https://github.com/stellar/bower-js-stellar-base",
+  "name": "digitalbits-base ",
+  "homepage": "https://github.com/DigitalBitsOrg/bower-js-digitalbits-base",
   "authors": [
     "Stellar Development Foundation"
   ],
-  "description": "Low level stellar support library",
+  "description": "Low level DigitalBits support library",
   "main": "./stellar-base.min.js",
   "keywords": [
     "stellar"

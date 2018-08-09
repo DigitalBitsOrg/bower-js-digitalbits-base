@@ -1,3 +1,3 @@
-# js-stellar-base for Bower
+# js-digitalbits-base for Bower
 
-Packaged version of [js-stellar-base](https://github.com/stellar/js-stellar-base) for front-end development.
+Packaged version of [js-digitalbits-base](https://github.com/DigitalBitsOrg/bower-js-digitalbits-base) for front-end development.
