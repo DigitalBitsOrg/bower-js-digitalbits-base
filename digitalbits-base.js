@@ -14483,7 +14483,7 @@ var DigitalBitsBase =
 	  // Can typed array instances can be augmented?
 	  try {
 	    var arr = new Uint8Array(1)
-	    arr.__proto__ = {__proto__: Uint8Array.prototype, foo: function () { return 42 }}
+	    arr.__proto__ = { __proto__: Uint8Array.prototype, foo: function () { return 42 } }
 	    return arr.foo() === 42
 	  } catch (e) {
 	    return false
@@ -33016,7 +33016,7 @@ var DigitalBitsBase =
 	    this.timebounds = (0, _lodashClone2["default"])(opts.timebounds);
 	    this.memo = opts.memo || _memo.Memo.none();
 
-	    // the signed base64 form of the transaction to be sent to Horizon
+	    // the signed base64 form of the transaction to be sent to Frontier
 	    this.blob = null;
 	  }
 
